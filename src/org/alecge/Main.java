@@ -22,4 +22,21 @@ public class Main {
 
         return (int) decimal;
     }
+    public static int binaryToOctal(String binary){
+        char[] processing = binary.toCharArray();
+        int processingLength = processing.Length();
+
+        if(processingLength % 3 == 0){
+            //if length is divisible by three separate into 3 chunks
+        }
+        else if(processingLength % 3 == 1){
+            // if remainder is 1 read the first digit and check if it's 1
+        }
+        else if(processingLength % 3 == 2){
+            //if remainder is 2 read first two and convert to dec
+        }
+
+
+
+    }
 }

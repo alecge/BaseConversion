@@ -14,6 +14,8 @@ public class Main {
         }
         else if(args[1].equals("2") && args[2].equals("10"))
             System.out.println("Binary to Decimal: " + binaryToDecimal(args[0]));
+        else if(args[1].equals("2") && args[2].equals("8"))
+            System.out.println("Binary to Octal: " + binaryToOctal(args[0]));
     }
 
     public static int binaryToDecimal(String binary){

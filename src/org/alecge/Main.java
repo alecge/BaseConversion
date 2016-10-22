@@ -48,9 +48,11 @@ public class Main {
         }
         else if(processingLength % 3 == 1){
             // if remainder is 1 read the first digit and check if it's 1
+	    // todo: finish this
         }
         else if(processingLength % 3 == 2){
             //if remainder is 2 read first two and convert to dec
+	    // todo: finish this
         }
 
 

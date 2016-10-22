@@ -8,6 +8,7 @@ public class Main {
 	// syntax: Main.class <value to convert> <base of value> <base to convert to>
 
         // rudimentary invalid syntax catcher
+	// fails to catch most bugs TODO: fix me!
         if(args.length < 2) {
             System.out.println("Incomplete Syntax.  Program will exit");
             System.exit(0);
